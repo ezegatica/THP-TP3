@@ -37,7 +37,7 @@ public class Test {
 		System.out.println("-------------"); // Separador
 
 		// Out principal
-		c1.getEmpleados();
+		c1.listarEmpleados();
 
 	}
 

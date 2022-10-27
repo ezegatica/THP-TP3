@@ -17,7 +17,7 @@ public class Area {
 			oficina.setArea(this);
 			this.oficinas.add(oficina);				
 		} else {
-			System.out.println("La oficina " + oficina.toString() + " ya tiene area");
+			System.out.println("La oficina " + oficina.toString() + " ya tiene area asignada");
 		}
 	}	
 	
@@ -26,10 +26,10 @@ public class Area {
 		return this.nombre;
 	}
 	
-	public void getOficinas() {
+	public void listarOficinas() {
 		System.out.println(" - " + this.nombre + ", con las oficinas: ");
 		for (Oficina o: oficinas) {
-			o.getEmpleados();
+			o.listarEmpleados();
 		}
 	}
 }

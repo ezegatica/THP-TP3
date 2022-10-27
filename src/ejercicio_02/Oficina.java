@@ -18,7 +18,7 @@ public class Oficina {
 			empleado.setOficina(this);
 			this.empleados.add(empleado);
 		} else {
-			System.out.println("El empleado " + empleado.getNombre() + " ya tiene oficina");
+			System.out.println("El empleado " + empleado.getNombre() + " ya tiene oficina asignada");
 		}
 	}
 	
@@ -35,7 +35,7 @@ public class Oficina {
 		return this.nombre;
 	}
 	
-	public void getEmpleados() {
+	public void listarEmpleados() {
 		System.out.println("  - " + this.nombre + ", y tiene los siguientes empleados:");
 		for (Empleado e: empleados) {
 			System.out.println(e.toString());

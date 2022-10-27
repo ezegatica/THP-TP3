@@ -20,7 +20,7 @@ public class Test {
 
 		System.out.println(agenda.modificarDomicilio(3, domicilio2)); // true
 		
-		agenda.listarPersonas(); // Todas las personas, menos la que tiene (dni: 4)
+		agenda.listarPersonas(); // Todas las personas, menos la que tiene (Maria Torres, DNI: 4, vive en: Av. Cabildo 2135, Belgrano)
 				
 		agenda.eliminarTodosElementosAMano();
 		

@@ -16,10 +16,10 @@ public class Compania {
 		this.areas.add(area);
 	}
 	
-	public void getEmpleados() {
+	public void listarEmpleados() {
 		System.out.println("La compañía " + this.nombre + " tiene las siguientes areas: ");
 		for (Area a: areas) {
-			a.getOficinas();
+			a.listarOficinas();
 		}
 	}
 }
